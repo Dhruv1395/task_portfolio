@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+header nav{
+    background-color: white;
+    
+}
+header nav ul .nav-link{
+    color: black;
+}
+header nav ul .active{
+    color: #F1C40F;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    padding: 50px 0;
+}
+#home{
+    position: relative;
+    overflow: hidden;
+}
+#home h5{
+    background-color: bisque;
+    width: 190px;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+#home h1{
+    font-style: italic;
+
+}
+#home h1 span{
+    color:#F1C40F;
+}
+#home p{
+    width: 90%;
+}
+#home .shape{
+    position: absolute;
+    bottom: 0;
+}
+#skill{
+    background-color: black;
+    height: auto;
+    color: white;
+}
+#skill h6{
+    background-color: white;
+    color: black;
+    width: 100px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 15px;
+}
+#skill .box{
+    clip-path: polygon(51% 0, 100% 40%, 100% 100%, 0 100%, 0 39%);   
+    height: 200px;
+    width: 250px;
+    padding: 0 50px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    color: black;
+}
+#skill .box  i{
+    font-size: 60px;
+    position: absolute;
+    top: -20px;
+    left: 42%;
+    color: #DC7633;
+    z-index: 100;
+}
