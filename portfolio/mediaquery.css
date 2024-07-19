@@ -1,0 +1,73 @@
+/* / Desktop 1600px   / */
+@media (max-width: 1850px) {}
+
+/* / Desktop 1440px   / */
+@media (max-width: 1440px) {}
+
+/* / Desktop 1280px   / */
+@media (max-width: 1400px) {
+    #skill .card::before{
+        padding: 8.5rem;
+    }
+}
+
+/* / iPad 1024px   / */
+@media (max-width: 1199px) {
+    #skill .card{
+        margin-bottom: 120px;
+    }
+    #home #boy{
+        width: 120%;
+    }
+}
+
+/* / iPad 991px   / */
+@media (max-width: 991px) {
+    
+    #skill .card{
+        margin-bottom: 100px;
+    }
+    #home #boy{
+        width: 120%;
+        margin-top: 30%;
+    }
+}
+
+/* / Iphone 767px  / */
+@media (max-width: 767px) {
+    #home #boy{
+        width: 58%;
+        margin-top:0px;
+        margin-left: auto;
+    }
+    #skill .card{
+        margin-bottom: 150px;
+    }
+}
+
+/* / Iphone 567px   / */
+@media (max-width: 566px) {
+    #home #boy{
+        width: 58%;
+        float: right;
+        margin-top: 0;
+    }
+}
+
+/* / Mobile 375px   / */
+@media (max-width: 375px) {
+    #home #boy{
+        width: 60%;
+        margin-left: auto;
+    }
+}
+
+/* / Mobile 360px   / */
+@media (max-width: 360px) {
+    #skill .card::before{
+        padding: 9rem;
+    }
+}
+
+/* / Mobile 320px   / */
+@media (max-width: 320px) {}
